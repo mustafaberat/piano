@@ -16,7 +16,6 @@
   width: 100%;
   height: 100%;
   transform: translate(-50%, -50%);
-  cursor: pointer;
   text-align: center;
   background: -webkit-linear-gradient(-65deg, #000, #222, #000, #666, #222 75%);
   background: -moz-linear-gradient(-65deg, #000, #222, #000, #666, #222 75%);
@@ -27,7 +26,9 @@
     height: 100%;
     width: 100%;
     .key-b {
+      cursor: pointer;
       z-index: 2;
+
       box-shadow: inset 0px -1px 2px rgba(255, 255, 255, 0.4),
         0 2px 3px rgba(0, 0, 0, 0.4);
       background: -webkit-linear-gradient(-20deg, #222, #000, #222);
@@ -57,6 +58,7 @@
       }
     }
     .key-w {
+      cursor: pointer;
       background: -webkit-linear-gradient(-30deg, #f8f8f8, #fff);
       background: -moz-linear-gradient(-30deg, #f8f8f8, #fff);
       background: -o-linear-gradient(-30deg, #f8f8f8, #fff);
