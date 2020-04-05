@@ -64,7 +64,7 @@
         <div class="key-w" @click="playIt(22)"><audio></audio></div>
         <div class="key-w" @click="playIt(23)"><audio></audio></div>
         <div class="morediv">
-          <a class="more" href="https://mustafaberat.now.sh/things">More..</a>
+          <a class="more" href="https://mustafaberat.now.sh/things" target="blank" prefetch={false}>More..</a>
         </div>
       </div>
     </div>
